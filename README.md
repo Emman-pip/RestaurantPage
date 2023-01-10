@@ -1,2 +1,0 @@
-# RestaurantPage
-an odin project
