@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'myfont';
+    src: url('./Jellee-Bold.ttf');
+}
+
+*{
+    font-family: 'myfont';
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background: url('./icon.jpg') center center;
+}
+
+.name {
+    background-color: rgba(128, 128, 128, 0.72);
+    text-align: center;
+    padding: 1rem;
+    width: max(20rem, 50%);
+    border-radius: 1rem;
+    margin:auto
+}
+
+.content {
+    width:max(20rem, 50%);
+    height: 30rem;
+    padding:1rem;
+    background-color: rgba(192, 192, 192, 0.755);
+    overflow: auto;
+    border-radius: 1rem;
+    margin:auto;
+    margin-top:1rem;
+}
+
+.fixed3 {
+    position:fixed;
+    bottom:0;
+    width: 20rem;
+}
+
+.fixed2 {
+    position:fixed;
+    bottom:20px;
+    width: 20rem;    
+}
+
+.fixed {
+    position:fixed;
+    bottom:40px;
+    width: 20rem;
+}
