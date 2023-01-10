@@ -1,8 +1,10 @@
 import options from "./index.js";
+import './style.css';
 
 export default function home() {
     document.body.innerHTML = "";
     const content = document.createElement('div');
+    content.classList.add('main')
 
     const name = document.createElement('h1');
     name.textContent = 'Best Resto';

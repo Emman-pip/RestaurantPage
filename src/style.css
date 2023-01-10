@@ -13,14 +13,18 @@ body {
     justify-content: center;
     background: url('./icon.jpg') center center;
 }
-
+.main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .name {
     background-color: rgba(128, 128, 128, 0.72);
     text-align: center;
     padding: 1rem;
     width: max(20rem, 50%);
     border-radius: 1rem;
-    margin:auto
 }
 
 .content {
@@ -30,24 +34,59 @@ body {
     background-color: rgba(192, 192, 192, 0.755);
     overflow: auto;
     border-radius: 1rem;
-    margin:auto;
     margin-top:1rem;
-}
-
-.fixed3 {
-    position:fixed;
-    bottom:0;
-    width: 20rem;
-}
-
-.fixed2 {
-    position:fixed;
-    bottom:20px;
-    width: 20rem;    
 }
 
 .fixed {
     position:fixed;
-    bottom:40px;
-    width: 20rem;
+    top:40px;
+    left:40px;
+    width: 10rem;
+    display: none;
+    z-index: 2;
+}
+
+.fixed2 {
+    position:fixed;
+    top:60px;
+    left:40px;
+    width: 10rem;    
+    display: none;
+    z-index: 2;
+}
+
+.fixed3 {
+    position:fixed;
+    top:80px;
+    left:40px;
+    width: 10rem;
+    display: none;
+    z-index: 2;
+}
+
+.nav {
+    background-color:rgb(192, 192, 192);
+    width: 2rem;
+    height: 2rem;
+    top:10px;
+    position:fixed;
+    left:10px;
+    border-radius: 5px;
+    z-index: 1;
+    display: flex;
+    flex-direction:column;
+    gap: 9px;
+    overflow: hidden;
+    border:rgb(79, 79, 79) 1px solid;
+}
+
+.toggle {
+    display:block;
+}
+
+.line {
+    width:2rem;
+    height:5px;
+    background-color: rgb(79, 79, 79);
+
 }
