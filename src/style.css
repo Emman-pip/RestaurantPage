@@ -49,7 +49,7 @@ body {
     background-color: rgba(128, 128, 128, 0.72);
     text-align: center;
     padding: 1rem;
-    width: max(20rem, 50%);
+    width: max(30rem, 50%);
     border-radius: 1rem;
     font-family: 'myfont';
     font-style: normal;
@@ -57,7 +57,7 @@ body {
 }
 
 .content {
-    width:max(20rem, 50%);
+    width:max(30rem, 50%);
     height: 30rem;
     padding:1rem;
     overflow: auto;
@@ -175,6 +175,7 @@ input:focus {
     z-index: -1;
     bottom:-5rem;
     left:-5rem;
+    outline:3px rgb(156, 118, 23) dashed;
 }
 
 .image {
