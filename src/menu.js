@@ -1,6 +1,8 @@
 import options from "./index.js";
 import './style.css';
 
+
+
 export default function menu() {
     document.body.innerHTML = "";
     const content = document.createElement('div');
@@ -18,6 +20,7 @@ export default function menu() {
     
     document.body.appendChild(content);
 
-    options()
-
+    options();
 }
+
+

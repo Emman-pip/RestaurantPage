@@ -32,7 +32,7 @@ export default function home() {
     email.type = 'email';
     email.placeholder = 'email@example.com';
     button.innerHTML = 'book a reservation';
-    button.addEventListener('click', ()=>event.preventDefault())
+    button.addEventListener('click', ()=>event.preventDefault)
     
     div.appendChild(email);
     div.appendChild(button);
