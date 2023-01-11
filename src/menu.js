@@ -66,6 +66,14 @@ export default function menu() {
     
     document.body.appendChild(content);
 
+    const circle2 = document.createElement('div');   
+    circle2.classList.add('circle4')
+    document.body.appendChild(circle2)
+
+    const circle3 = document.createElement('div');
+    circle3.classList.add('circle3')
+    document.body.appendChild(circle3)
+
     options();
 }
 

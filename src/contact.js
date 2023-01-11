@@ -12,12 +12,12 @@ export default function contact() {
     content.appendChild(name);
     
     const desc = document.createElement('div');
-    desc.classList.add('content')
-    content.appendChild(desc)
+    desc.classList.add('content');
+    content.appendChild(desc);
 
     const phon = new Image;
-    phon.src = phone
-    desc.appendChild(phon)
+    phon.src = phone;
+    desc.appendChild(phon);
     
     document.body.appendChild(content);
 
