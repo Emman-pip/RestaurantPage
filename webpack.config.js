@@ -20,7 +20,7 @@ module.exports = {
         rules: [
           {test: /\.css$/i, use: ["style-loader", "css-loader"]},
           {test:/\.ttf$/i,type:'asset/resource'},
-          {test:/\.jpg$/i,type:'asset/resource'}
+          {test: /\.(png|svg|jpg|jpeg|gif)$/i, type: 'asset/resource',}
         ],
       },
 }

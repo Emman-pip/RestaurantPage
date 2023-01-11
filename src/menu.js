@@ -7,7 +7,7 @@ export default function menu() {
     content.classList.add('main');
 
     const name = document.createElement('h1');
-    name.textContent = 'Best Resto';
+    name.textContent = 'MENU';
     name.classList.add('name');
     content.appendChild(name);
     
@@ -19,4 +19,5 @@ export default function menu() {
     document.body.appendChild(content);
 
     options()
+
 }

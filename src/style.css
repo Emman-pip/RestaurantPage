@@ -4,37 +4,62 @@
 }
 
 *{
-    font-family: 'myfont';
-    font-style: normal;
+    margin:0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 body {
     display: flex;
+    background: url('./icon.jpg') center center no-repeat;
+    height: 100vh;
+    align-items: center;
+    flex-direction: row;
     justify-content: center;
-    background: url('./icon.jpg') center center;
+    
 }
 .main{
     display:flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    z-index: 1;
+    gap:1rem
+
 }
+
+.main2 {
+    width: max(20rem, 50%);
+    overflow: hidden;
+    height: 20rem;
+    margin-right: -10;
+    height: max(20rem, 90%);
+    width: max(20rem, 90%);
+    border-radius: 100%;
+    z-index: 0;
+    border: rgb(116, 88, 17) 5px dashed;
+   
+}
+
 .name {
+    color: antiquewhite;
     background-color: rgba(128, 128, 128, 0.72);
     text-align: center;
     padding: 1rem;
     width: max(20rem, 50%);
     border-radius: 1rem;
+    font-family: 'myfont';
+    font-style: normal;
+    box-shadow: 1rem 2rem 10px rgba(0, 0, 0, 0.508)
 }
 
 .content {
     width:max(20rem, 50%);
     height: 30rem;
     padding:1rem;
-    background-color: rgba(192, 192, 192, 0.755);
     overflow: auto;
     border-radius: 1rem;
-    margin-top:1rem;
+    color: rgb(52, 51, 49);
+    box-shadow: 1rem 2rem 10px rgba(0, 0, 0, 0.534)
 }
 
 .fixed {
@@ -89,4 +114,56 @@ body {
     height:5px;
     background-color: rgb(79, 79, 79);
 
+}
+
+.color {
+    background-color: rgb(247, 176, 44);
+}
+
+.color:active {
+    background-color: rgb(150, 107, 28);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    background-image: url("./food1.jpg");
+    background: linear-gradient(rgba(192, 192, 192, 0.755), rgba(255, 255, 255, 0.7), rgba(192, 192, 192, 0.755)) ;
+}
+
+.reserv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 19rem;
+    gap:1rem;
+}
+
+input {
+    padding: .4rem;
+    text-align: center;
+    height: 2rem;
+    border-radius: 10px;
+
+}
+
+input:focus {
+    outline: rgb(248, 161, 0) 3px solid;
+}
+
+
+.circle {
+    border-radius: 100rem;
+    width: max(30rem, 100%);
+    height: max(30rem, 100%);
+    position:fixed;
+    background-color: rgba(156, 118, 23, 0.692);
+    right:-20rem;
+    z-index: -1;
+    border: rgb(116, 88, 17) 5px solid;
+}
+
+.image {
+    height: 100%;
+    height: 100%;
 }

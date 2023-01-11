@@ -7,7 +7,7 @@ export default function contact() {
     content.classList.add('main');
 
     const name = document.createElement('h1');
-    name.textContent = 'Best Resto';
+    name.textContent = 'CONTACT';
     name.classList.add('name');
     content.appendChild(name);
     
@@ -19,4 +19,5 @@ export default function contact() {
     document.body.appendChild(content);
 
     options()
+
 }
