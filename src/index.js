@@ -27,7 +27,7 @@ export default function options(){
     
     
     const cbtn = document.createElement('button');
-    cbtn.innerHTML = "CONTACTS";
+    cbtn.innerHTML = "CONTACT US";
     cbtn.onclick = contact;
     navbar.appendChild(cbtn);
     cbtn.classList.add('fix')
