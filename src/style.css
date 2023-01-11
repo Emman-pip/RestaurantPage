@@ -133,7 +133,6 @@ body {
 .content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     background-image: url("./food1.jpg");
     background: linear-gradient(rgba(192, 192, 192, 0.755), rgba(255, 255, 255, 0.7), rgba(192, 192, 192, 0.755)) ;
 }
