@@ -61,9 +61,13 @@ export default function home() {
 
     options();
 
-    const circle = document.createElement('circle');
+    const circle = document.createElement('div');
     circle.classList.add('circle')
     document.body.appendChild(circle)
+
+    const circle2 = document.createElement('div');
+    circle2.classList.add('circle2')
+    document.body.appendChild(circle2)
 
 }
 
