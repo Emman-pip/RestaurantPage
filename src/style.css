@@ -49,7 +49,7 @@ body {
     background-color: rgba(128, 128, 128, 0.72);
     text-align: center;
     padding: 1rem;
-    width: max(30rem, 50%);
+    width: max(20rem, 50%);
     border-radius: 1rem;
     font-family: 'myfont';
     font-style: normal;
@@ -57,7 +57,7 @@ body {
 }
 
 .content {
-    width:max(30rem, 50%);
+    width:max(20rem, 50%);
     height: 30rem;
     padding:1rem;
     overflow: auto;
