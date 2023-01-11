@@ -63,6 +63,7 @@ body {
     font-style: normal;
     box-shadow: 1rem 2rem 10px rgba(0, 0, 0, 0.508);
     backdrop-filter: blur(1rem);
+
 }
 
 .content {
@@ -74,6 +75,9 @@ body {
     color: rgb(52, 51, 49);
     box-shadow: 1rem 2rem 10px rgba(0, 0, 0, 0.534);
     backdrop-filter: blur(0.5rem);
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
 }
 
 .nav {
@@ -176,4 +180,22 @@ input:focus {
 .fix {
     position:static;
     display: block;
+}
+
+.pic {
+    width: max(10rem,30vw);
+    height: auto;
+    border-radius: 10px;
+}
+
+.food{
+    padding:3px;
+    display:flex;
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    font-size: max(small, large);
+    text-align: center;
 }
